@@ -106,18 +106,22 @@ export function ExecutiveSection() {
             {[
               {
                 name: "Carlos Mendes",
-                role: "Gerente de Produtos",
+                role: "Gestor(a) de Produtos",
                 initials: "CM",
               },
               {
                 name: "Juliana Lima",
-                role: "Gerente de Atendimento",
+                role: "Gestor(a) de Atendimento",
                 initials: "JL",
               },
-              { name: "Fernando Rocha", role: "Gerente de TI", initials: "FR" },
+              {
+                name: "Fernando Rocha",
+                role: "Gestor(a) de TI",
+                initials: "FR",
+              },
               {
                 name: "Beatriz Souza",
-                role: "Gerente de Marketing",
+                role: "Gestor(a) de Marketing",
                 initials: "BS",
               },
             ].map((manager, index) => (
