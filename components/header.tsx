@@ -41,7 +41,7 @@ export function Header() {
               Serviços
             </Link>
             <Link
-              href="#equipe"
+              href="#board"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
               Corpo Executivo
