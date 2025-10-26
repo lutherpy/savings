@@ -23,7 +23,7 @@ export function HeroSection() {
             atendimento personalizado.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
               size="lg"
               className="bg-white text-[#35696b] hover:bg-white/90 font-semibold"
@@ -38,7 +38,7 @@ export function HeroSection() {
             >
               Saiba Mais
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
