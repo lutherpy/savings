@@ -6,20 +6,22 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
+        {/* Versão Desktop */}
+        <div className="hidden md:flex items-center justify-between lg:h-20">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-60 h-20  overflow-hidden flex items-center justify-center">
+            <div className="w-60 h-10 flex items-center justify-center">
               <Image
                 src="/logo-savings.jpg"
                 alt="Logo Savings"
                 width={300}
-                height={40}
-                className="object-cover w-full h-full"
+                height={10}
+                className="object-contain w-full h-20"
+                priority
               />
             </div>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="flex items-center gap-8">
             <Link
               href="#sobre"
               className="text-sm font-medium hover:text-primary transition-colors"
@@ -42,11 +44,31 @@ export function Header() {
               href="#equipe"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
-              Estrutura Organizacional
+              Corpo Executivo
             </Link>
           </nav>
 
           <Button className="bg-gradient-to-r from-[#4a8b91] to-[#35696b] text-white hover:opacity-90">
+            Abrir Conta
+          </Button>
+        </div>
+
+        {/* Versão Mobile */}
+        <div className="flex flex-col items-center justify-center md:hidden py-4 space-y-3">
+          <Link href="/" className="flex items-center justify-center">
+            <div className="w-48 h-auto flex items-center justify-center">
+              <Image
+                src="/logo-savings.jpg"
+                alt="Logo Savings"
+                width={250}
+                height={80}
+                className="object-contain w-full h-auto"
+                priority
+              />
+            </div>
+          </Link>
+
+          <Button className="w-full max-w-[200px] bg-gradient-to-r from-[#4a8b91] to-[#35696b] text-white hover:opacity-90">
             Abrir Conta
           </Button>
         </div>
