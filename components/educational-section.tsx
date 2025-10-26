@@ -44,7 +44,7 @@ export function EducationalSection() {
           </h2>
           <p className="text-lg text-muted-foreground text-pretty leading-relaxed">
             Aprenda os conceitos básicos sobre investimentos e tome decisões
-            mais informadas sobre seu o futuro financeiro.
+            mais informadas sobre o seu futuro financeiro.
           </p>
         </div>
 

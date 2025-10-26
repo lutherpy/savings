@@ -11,8 +11,8 @@ export function AboutSection() {
           <p className="text-lg text-muted-foreground text-pretty leading-relaxed">
             Somos uma distribuidora de valores mobiliários comprometida em
             democratizar o acesso aos investimentos. Com anos de experiência no
-            mercado financeiro, oferecemos as melhores soluções para você
-            alcançar seus objetivos.
+            mercado financeiro, oferecemos as melhores soluções o investidor
+            alcançar seus objectivos.
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export function AboutSection() {
             </div>
             <h3 className="text-xl font-bold mb-3">Rentabilidade</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Acesso aos melhores produtos do mercado para maximizar seus
+              Acesso aos melhores produtos do mercado para maximizar os seus
               retornos.
             </p>
           </div>
@@ -45,8 +45,8 @@ export function AboutSection() {
             </div>
             <h3 className="text-xl font-bold mb-3">Atendimento</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Equipe especializada pronta para ajudar você em cada etapa da sua
-              jornada.
+              Equipa especializada e pronta para ajudar em cada etapa do seu
+              investimento.
             </p>
           </div>
         </div>
