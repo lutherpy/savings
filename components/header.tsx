@@ -1,0 +1,56 @@
+import Link from "next/link";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+
+export function Header() {
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="flex items-center justify-between h-16 lg:h-20">
+          <Link href="/" className="flex items-center gap-2">
+            <div className="w-60 h-20  overflow-hidden flex items-center justify-center">
+              <Image
+                src="/logo-savings.jpg"
+                alt="Logo Savings"
+                width={300}
+                height={40}
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </Link>
+
+          <nav className="hidden md:flex items-center gap-8">
+            <Link
+              href="#sobre"
+              className="text-sm font-medium hover:text-primary transition-colors"
+            >
+              Sobre
+            </Link>
+            <Link
+              href="#educacao"
+              className="text-sm font-medium hover:text-primary transition-colors"
+            >
+              Conteúdo Didáctico
+            </Link>
+            <Link
+              href="#produtos"
+              className="text-sm font-medium hover:text-primary transition-colors"
+            >
+              Serviços
+            </Link>
+            <Link
+              href="#equipe"
+              className="text-sm font-medium hover:text-primary transition-colors"
+            >
+              Estrutura Organizacional
+            </Link>
+          </nav>
+
+          <Button className="bg-gradient-to-r from-[#4a8b91] to-[#35696b] text-white hover:opacity-90">
+            Abrir Conta
+          </Button>
+        </div>
+      </div>
+    </header>
+  );
+}
