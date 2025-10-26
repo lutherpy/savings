@@ -44,15 +44,15 @@ export function Footer() {
                   href="#produtos"
                   className="text-white/80 hover:text-white text-sm transition-colors"
                 >
-                  Produtos
+                  Serviços
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#equipe"
+                  href="#board"
                   className="text-white/80 hover:text-white text-sm transition-colors"
                 >
-                  Equipe
+                  Corpo Executivo
                 </Link>
               </li>
             </ul>
