@@ -23,6 +23,12 @@ export function Header() {
 
           <nav className="flex items-center gap-8">
             <Link
+              href="/"
+              className="text-sm font-medium hover:text-primary transition-colors"
+            >
+              Página Inicial
+            </Link>
+            <Link
               href="#sobre"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
