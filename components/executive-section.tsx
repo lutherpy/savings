@@ -21,7 +21,7 @@ export function ExecutiveSection() {
               <CardContent className="pt-6 text-center">
                 <Avatar className="w-20 h-20 mx-auto mb-4 border-4 border-primary/20">
                   <AvatarFallback className="bg-gradient-to-br from-[#4a8b91] to-[#35696b] text-white text-2xl font-bold">
-                    JC
+                    CNM
                   </AvatarFallback>
                 </Avatar>
                 <h3 className="text-xl font-bold mb-1">
